@@ -1,5 +1,5 @@
 .Projects {
-  background: #f8f9fa;
+  background: #ffffff;
   padding: 2rem 0;
   width: 100%;
 }
@@ -7,7 +7,7 @@
 .project-card {
   background: #fff;
   border-radius: 10px;
-  border: 2px solid #add8e6; /* Light blue outline */
+  border: 2px solid #5fa8c1; /* Light blue outline */
   margin: 0 1rem;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
