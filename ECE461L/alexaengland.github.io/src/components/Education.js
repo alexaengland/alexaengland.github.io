@@ -10,7 +10,7 @@ function Education() {
         <div className="d-flex flex-column align-items-center">
           <img src={utLogo} alt="University of Texas" style={{ width: '200px', height: '105px' }} />
           <h3 className="h5 fw-bold mt-3">University of Texas at Austin</h3>
-          <p>Bachelor of Science in Electrical and Computer Engineering on the Software Track</p>
+          <p>Bachelor of Science in Electrical and Computer Engineering - Software Engineering Track</p>
           <p>August 2021 - May 2025</p>
           <p>GPA: 3.69</p>
         </div>
