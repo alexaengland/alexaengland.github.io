@@ -40,6 +40,14 @@ function Projects() {
       ]
     },
     {
+      title: "Digital Kinder Kit",
+      date: "March 2023 - April 2023",
+      description: [
+        "Developed a program in Java to represent the kinder kits which are given to infants in Victoria by the Australian government.",
+        "Allows the user to create a canvas and print triangles and rectangles and then move, rotate, zoom in or out, or delete them to create various drawings."
+      ]
+    },
+    {
       title: "Pac-Man Game Design Incorporating Embedded Systems",
       date: "November 2022",
       description: [
