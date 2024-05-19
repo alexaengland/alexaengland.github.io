@@ -5,12 +5,12 @@ import githubLogo from '../github-logo.png'; // Ensure this is the correct path 
 
 function Home() {
   return (
-    <div className="Home min-vh-100 d-flex flex-column justify-content-center align-items-center text-white bg-dark" style={{ background: '#282c34' }}>
+    <div className="Home min-vh-100 d-flex flex-column justify-content-center align-items-center text-black bg-blue-200">
       <div className="text-center mb-4">
         <img src={profilePic} className="rounded-circle border border-4 border-white shadow-lg" alt="Alexa England" style={{ width: '300px', height: '300px' }} />
       </div>
       <h1 className="display-3 fw-bold mb-3">Alexa England</h1>
-      <p className="lead mb-4">Aspiring Machine Learning Specialist and Electrical Engineer.</p>
+      <p className="lead mb-4">Aspiring Machine Learning Specialist and Software Engineer.</p>
       <div className="social-links d-flex justify-content-center gap-4">
         <a href="https://www.linkedin.com/in/alexaengland" target="_blank" rel="noopener noreferrer">
           <img src={linkedinLogo} alt="LinkedIn" style={{ width: '40px', height: '40px' }} />

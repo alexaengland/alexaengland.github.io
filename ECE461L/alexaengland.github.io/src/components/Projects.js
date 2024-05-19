@@ -58,14 +58,14 @@ function Projects() {
   ];
 
   return (
-    <div className="Projects">
-      <h2 className="display-4 fw-bold text-center mb-5">Projects</h2>
+    <div className="Projects bg-dark">
+      <h2 className="display-4 font-bold text-center mb-5 text-white">Projects</h2>
       <div className="row">
         {projectData.map((project, index) => (
           <div className="col-12 mb-4" key={index}>
-            <div className="project-card shadow-sm p-4">
-              <h3 className="project-title">{project.title}</h3>
-              <h4 className="project-date text-muted">{project.date}</h4>
+            <div className="project-card shadow-sm bg-dark text-white p-4">
+              <h3 className="project-title font-bold">{project.title}</h3>
+              <h4 className="project-date">{project.date}</h4>
               <ul className="project-description list-unstyled">
                 {project.description.map((desc, idx) => (
                   <li key={idx}>{desc}</li>

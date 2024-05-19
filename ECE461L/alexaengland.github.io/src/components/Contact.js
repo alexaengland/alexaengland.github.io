@@ -4,7 +4,7 @@ import githubLogo from '../github-logo.png'; // Ensure this is the correct path 
 
 function Contact() {
   return (
-    <div className="Contact bg-blue-100 p-5 rounded shadow mx-auto text-center">
+    <div className="Contact bg-blue-200 p-5 rounded shadow mx-auto text-center">
       <h2 className="display-4 fw-bold mb-5">Contact Me</h2>
       <p className="lead mb-2"><strong>Email:</strong> alexaengland29@utexas.edu</p>
       <div className="d-flex justify-content-center gap-4 mt-4">

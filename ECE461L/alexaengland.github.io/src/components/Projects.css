@@ -7,7 +7,7 @@
 .project-card {
   background: #fff;
   border-radius: 10px;
-  border: 2px solid #5fa8c1; /* Light blue outline */
+  border: 2px solid #aed7ef; /* Light blue outline */
   margin: 0 1rem;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -19,20 +19,20 @@
 }
 
 .project-title {
-  font-weight: 700;
-  color: #333;
+  font-weight: 400;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
 .project-date {
   font-weight: 400;
-  color: #777;
+  color: #aed7ef;
   margin-bottom: 15px;
 }
 
 .project-description {
   font-weight: 400;
-  color: #555;
+  color: #ffffff;
 }
 
 .project-description li {
