@@ -1,32 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import './Header.css'; // Ensure this is the correct path
+import './Header.css';
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="header">
       <nav className="navbar">
         <div className="navbar-brand">
           <a href="#home" className="navbar-logo">AE</a> {/* Your initials or logo */}
         </div>
-        <ul className="navbar-list">
+        <div className="navbar-toggle" onClick={toggleDropdown}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul className={`navbar-list ${isOpen ? 'navbar-dropdown' : ''}`}>
           <li className="navbar-item">
-            <Link to="home" smooth={true} duration={500}>Home</Link>
+            <Link to="home" duration={0}>Home</Link>
           </li>
           <li className="navbar-item">
-            <Link to="about" smooth={true} duration={500}>About</Link>
+            <Link to="about" duration={0}>About</Link>
           </li>
           <li className="navbar-item">
-            <Link to="education" smooth={true} duration={500}>Education</Link>
+            <Link to="education" duration={0}>Education</Link>
           </li>
           <li className="navbar-item">
-            <Link to="experience-and-skills" smooth={true} duration={500}>Experience & Skills</Link>
+            <Link to="experience-and-skills" duration={0}>Experience & Skills</Link>
           </li>
           <li className="navbar-item">
-            <Link to="projects" smooth={true} duration={500}>Projects</Link>
+            <Link to="projects" duration={0}>Projects</Link>
           </li>
           <li className="navbar-item">
-            <Link to="contact" smooth={true} duration={500}>Contact</Link>
+            <Link to="contact" duration={0}>Contact</Link>
           </li>
         </ul>
       </nav>
@@ -35,6 +46,8 @@ function Header() {
 }
 
 export default Header;
+
+
 
 
 

@@ -1,3 +1,5 @@
+/* Header.css */
+
 .header {
   background-color: #ffffff; /* Background color of the header */
   padding: 1rem 0;
@@ -46,7 +48,62 @@
   color: #61dafb; /* Change to your desired hover color */
 }
 
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
 
-  
+.navbar-toggle span {
+  background: #000000; /* Black color for the toggle bars */
+  height: 2px;
+  margin: 4px 0;
+  width: 25px;
+}
+
+.navbar-dropdown {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-dropdown a {
+  padding: 0.5rem 1rem;
+  color: #000000; /* Black color for the dropdown items */
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffffff; /* Background color for the dropdown */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-toggle {
+    display: flex;
+  }
+
+  .navbar-dropdown {
+    display: flex;
+    background: #ffffff; /* Background color for the dropdown */
+  }
+
+  .navbar-item {
+    margin: 0;
+  }
+
+  .navbar-item a {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #f0f0f0; /* Divider between dropdown items */
+  }
+}
+
   
   
