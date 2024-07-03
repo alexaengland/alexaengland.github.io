@@ -9,10 +9,10 @@ function ExperienceAndSkills() {
         <div className="text-start">
           <h3 className="h4 font-semibold mb-3">Experience</h3>
           <div className="mb-4">
-            <h4 className="h5 font-semibold mb-2">ASRC Federal STRIDE Software Intern (June 2024 – August 2024)</h4>
+            <h4 className="h5 font-semibold mb-2">ASRC Federal STRIDE Software Intern (June 2024 – Present)</h4>
             <ul className="list-unstyled">
-              <li>Collaborated with cross-functional teams to identify and resolve software issues.</li>
-              <li>Documented software processes and supported new feature implementation.</li>
+              <li></li>
+              <li></li>
             </ul>
           </div>
           <div className="mb-4">
