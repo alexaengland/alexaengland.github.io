@@ -31,8 +31,8 @@ function ExperienceAndSkills() {
           </div>
         </div>
         <h3 className="h4 font-bold mb-3">Skills</h3>
-        <p>Proficient in: Keil uVision5, C, ARM Assembly, C++, Python, Verilog, Java</p>
-        <p>Familiar with: React, MATLAB, JavaScript, CSS, HTML, Node.js, MySQL, NoSQL, MongoDB, PyMongo, Volley, Git, Sci-Kit Learn, pandas, NumPy, SciPy, Android Studio, Visual Studio Code, IntelliJ</p>
+        <p>Proficient in: C, ARM Assembly Language, C++, Python, Verilog, and Java</p>
+        <p>Familiar with: React, MATLAB, JavaScript, CSS, HTML, Node.js, MySQL, NoSQL, MongoDB, PyMongo, Volley, Git, Sci-Kit Learn, pandas, NumPy, SciPy, PyTorch, Android Studio, Visual Studio Code, Jupyter Notebooks, Keil uVision5, PyCharm, Quartus, and IntelliJ</p>
       </div>
     </div>
   );
